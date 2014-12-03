@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood_bg_drawable"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|center_horizontal"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="4" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:src="@drawable/start_menu_coins"
+            tools:ignore="ContentDescription" />
+            
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="7" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:text="@string/main_title_the"
+            android:textColor="@color/black_text"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="12dp"
+            android:gravity="right"
+            android:singleLine="false"
+            android:text="@string/main_title"
+            android:textSize="45sp"
+            android:textColor="@color/black_text"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:gravity="bottom|right"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/new_game_button"
+            style="@style/MainMenuItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/play_game_icon"
+            android:text="@string/main_menu_new_game" />
+
+        <Button
+            android:id="@+id/join_game_button"
+            style="@style/MainMenuItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/join_game_icon"
+            android:drawablePadding="8dp"
+            android:paddingLeft="8dp"
+            android:text="@string/main_menu_join_game" />
+
+        <Button
+            android:id="@+id/help_button"
+            style="@style/MainMenuItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/help_icon"
+            android:text="@string/main_menu_help" />
+
+        <Button
+            android:id="@+id/about_button"
+            style="@style/MainMenuItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/about_icon"
+            android:text="@string/main_menu_about" />
+    </LinearLayout>
+
+</FrameLayout>

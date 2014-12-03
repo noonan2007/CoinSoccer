@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:top="20dp">
+        <bitmap
+            android:tileMode="disabled" 
+            android:gravity="top|left"
+            android:src="@drawable/coin_blue" />
+    </item>
+
+    <item android:left="40dp" android:top="100dp">
+        <bitmap
+            android:tileMode="disabled" 
+            android:gravity="top|left" 
+            android:src="@drawable/coin_blue" />
+    </item>
+
+    <item android:left="120dp" android:top="30dp">
+        <bitmap
+            android:tileMode="disabled" 
+            android:gravity="top|left"
+            android:src="@drawable/coin_ball" />
+    </item>
+
+    <item android:left="200dp">
+        <bitmap 
+            android:tileMode="disabled" 
+            android:gravity="top|left"
+            android:src="@drawable/coin_red" />
+    </item>
+</layer-list>

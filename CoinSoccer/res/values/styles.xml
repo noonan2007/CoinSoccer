@@ -1,0 +1,138 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CustomFloatingWindowTheme" parent="android:Theme.Holo.Light.Dialog">
+	    <item name="android:windowIsFloating">false</item>
+	    <item name="android:windowIsTranslucent">true</item>
+	    <item name="android:windowActionBar">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+		<item name="android:windowActionModeOverlay">true</item>
+	</style>
+    
+    <style name="HudInfoBox">
+        <item name="android:background">#99000000</item>
+        <item name="android:textColor">#DDFFFFFF</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    
+    <style name="ScoreShieldName">
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingRight">7dp</item>
+	    <item name="android:paddingTop">4dp</item>
+	    <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@drawable/black_button_bg</item>
+        <item name="android:textColor">@color/black_button_text</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="ScoreShieldScore">
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingRight">7dp</item>
+	    <item name="android:paddingTop">4dp</item>
+	    <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@drawable/black_button_bg</item>
+        <item name="android:textColor">@color/black_button_text</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="HudCounter">
+        <item name="android:background">@drawable/black_button_bg</item>
+        <item name="android:textColor">@color/black_button_text</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+	    <item name="android:paddingTop">2dp</item>
+	    <item name="android:paddingBottom">2dp</item>
+	    <item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="InGameMenuItem">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">48dp</item>
+	    <item name="android:paddingTop">9dp</item>
+	    <item name="android:paddingBottom">9dp</item>
+	    <item name="android:textSize">18sp</item>
+	    <item name="android:drawablePadding">12dp</item>
+    </style>
+
+    <style name="MainMenuItem">
+        <item name="android:background">@drawable/black_button_bg</item>
+        <item name="android:textColor">@color/black_button_text</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">15dp</item>
+	    <item name="android:paddingTop">5dp</item>
+	    <item name="android:paddingBottom">5dp</item>
+	    <item name="android:drawablePadding">5dp</item>
+	    <item name="android:textSize">15sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    
+    <style name="BigTitle">
+        <item name="android:textColor">@color/black_text</item>
+	    <item name="android:textSize">25sp</item>
+	    <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="SmallBlackButton">
+      	<item name="android:background">@drawable/black_button_bg</item>
+		<item name="android:textColor">@color/black_button_text</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:paddingLeft">10dp</item>
+		<item name="android:paddingRight">10dp</item>
+		<item name="android:paddingTop">5dp</item>
+		<item name="android:paddingBottom">5dp</item>
+    </style>
+    
+    <style name="NumberButton" parent="SmallBlackButton">
+   		<item name="android:layout_marginLeft">10dp</item>
+		<item name="android:layout_marginRight">10dp</item>
+		<item name="android:layout_marginBottom">5dp</item>
+		<item name="android:layout_marginTop">5dp</item>
+    </style>
+    
+    <style name="BigBlackButton">
+       	<item name="android:background">@drawable/black_button_bg</item>
+		<item name="android:textColor">@color/black_button_text</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:paddingLeft">16dp</item>
+		<item name="android:paddingRight">16dp</item>
+		<item name="android:paddingTop">9dp</item>
+		<item name="android:paddingBottom">9dp</item>
+    </style>
+    
+    <style name="SubTitle">
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:textSize">20sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:layout_marginBottom">4dp</item>
+    </style>
+    
+    <style name="SubBox">
+        <item name="android:background">@drawable/white_box_bg</item>
+ 		<item name="android:paddingTop">6dp</item>
+ 		<item name="android:paddingBottom">6dp</item>
+ 		<item name="android:paddingRight">10dp</item>
+ 		<item name="android:paddingLeft">10dp</item>
+   		<item name="android:layout_marginBottom">15dp</item>        
+    </style>
+    
+    <style name="BlackDivider">
+        <item name="android:layout_width">match_parent</item>
+   	    <item name="android:layout_height">1dp</item>
+   	    <item name="android:background">@color/black_divider</item>
+    </style>
+    
+    <style name="SettingsText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_text</item>
+    </style>
+</resources>

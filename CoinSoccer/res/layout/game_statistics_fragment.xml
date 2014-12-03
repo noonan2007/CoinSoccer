@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.samsung.android.sample.coinsoccer.statistics.StatisticsSummaryView
+        android:id="@+id/statistics_summary_view"
+        android:background="@drawable/wood_bg_drawable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:showDividers="middle|end"
+        android:divider="@drawable/list_divider"
+        android:padding="10dp" />
+</FrameLayout>

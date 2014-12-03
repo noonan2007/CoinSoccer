@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    android:dividerPadding="5dp"
+    android:divider="@drawable/list_divider" >
+    
+	<TextView 
+	    android:id="@+id/game_menu_pause"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:drawableLeft="@drawable/pause_icon"
+	    android:text="@string/game_menu_pause"
+	    style="@style/InGameMenuItem"/>
+    
+	<TextView 
+	    android:id="@+id/game_menu_resume"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:drawableLeft="@drawable/resume_icon"
+	    android:text="@string/game_menu_resume"
+	    style="@style/InGameMenuItem"/>
+	
+	<TextView 
+	    android:id="@+id/game_menu_statistics"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:drawableLeft="@drawable/statistics_icon"
+	    android:text="@string/game_menu_statistics"
+	    style="@style/InGameMenuItem"/>
+	
+	<TextView 
+	    android:id="@+id/game_menu_volume"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:drawableLeft="@drawable/sound_icon"
+	    android:text="@string/game_menu_volume"
+	    style="@style/InGameMenuItem"/>
+	
+	<TextView 
+	    android:id="@+id/game_menu_quit"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:drawableLeft="@drawable/quit_icon"
+	    android:text="@string/game_menu_quit"
+	    style="@style/InGameMenuItem"/>
+</LinearLayout>

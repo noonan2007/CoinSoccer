@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content">
+    
+	<com.samsung.android.sample.coinsoccer.colorpicker.ColorPickerView
+	    android:id="@+id/color_picker_view"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+	
+	<View
+	    android:id="@+id/divider"
+	    android:layout_below="@+id/color_picker_view"
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:layout_marginBottom="0dp"
+	    android:background="?android:attr/dividerVertical" /> 
+	
+	<LinearLayout
+	    android:layout_below="@+id/divider"
+	    style="?android:attr/buttonBarStyle"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:measureWithLargestChild="true"
+	    android:orientation="horizontal"
+	    android:paddingTop="0dip" >
+	
+	    <Button
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:id="@android:id/button2"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@android:string/cancel" />
+	    
+   	    <Button
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:id="@android:id/button1"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@android:string/ok" />
+	</LinearLayout>
+</RelativeLayout>

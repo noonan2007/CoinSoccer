@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_activity_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/gl_view_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/game_end_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/HudCounter" />
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/game_end_counter"
+        android:id="@+id/turn_end_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/HudCounter"
+        android:visibility="gone" />
+    
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+		android:layout_alignParentBottom="true"        
+        android:id="@+id/score_shield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+		<view class="com.samsung.android.sample.coinsoccer.hud.PlayerInfoView$LeftSideImpl"
+		    android:id="@+id/first_player_info"
+		    android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:paddingRight="11dp"
+        	android:layout_weight="1"/>
+		
+		<view class="com.samsung.android.sample.coinsoccer.hud.PlayerInfoView$RightSideImpl"
+		    android:id="@+id/second_player_info"
+		    android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:paddingLeft="11dp"
+        	android:layout_weight="1"/>
+    </LinearLayout>
+    
+    <FrameLayout android:id="@+id/hud_info_boxes"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="35dp">
+		
+        <TextView
+            android:id="@+id/info_box_foul"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            style="@style/HudInfoBox" 
+            android:text="@string/info_msg_foul" />
+        
+        <TextView
+            android:id="@+id/info_box_cleaning_goal_area"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	style="@style/HudInfoBox" 
+        	android:text="@string/info_msg_cleaning_goal_area" />
+        
+        <TextView
+            android:id="@+id/info_box_remote_player_preparing_shot"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	style="@style/HudInfoBox"
+        	android:text="@string/info_msg_remote_player_preparing_shot"/>
+        
+        <TextView
+            android:id="@+id/info_box_turn_expired"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	style="@style/HudInfoBox"/>
+        
+        <TextView
+            android:id="@+id/info_box_goal_shot"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	style="@style/HudInfoBox"
+        	android:textSize="26sp"/>
+        
+        <TextView
+            android:id="@+id/info_box_pause"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	style="@style/HudInfoBox"/>
+        
+        <TextView
+            android:id="@+id/info_box_assets_loading"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	style="@style/HudInfoBox"
+        	android:text="@string/info_msg_loading_assets"/>
+    </FrameLayout>
+    
+    <TextView
+        android:id="@+id/info_box_shot_cancel"
+        android:layout_width="match_parent"
+        android:layout_margin="35dp"
+    	android:layout_height="wrap_content"
+    	style="@style/HudInfoBox"
+    	android:text="@string/info_msg_shot_cancel"
+	    android:drawableLeft="@drawable/trash"
+    	android:drawablePadding="5dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+        style="@style/SettingsText"
+        android:text="@string/settings_play_untill"/>
+    
+   	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="left|center_vertical"
+	    android:layout_marginBottom="3dp">
+    
+		<CheckBox
+		    android:layout_margin="0dp"
+		    android:padding="0dp"
+		    style="@style/SettingsText"
+		    android:id="@+id/goals_limit_checkbox" 
+	   	    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"/>
+		
+		<TextView
+			style="@style/NumberButton"
+		    android:id="@+id/goals_limit_picker"
+	   	    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="0dp" />
+		
+		<TextView 
+		    style="@style/SettingsText"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/settings_play_untill_goals" />
+	</LinearLayout>
+	
+   	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="left|center_vertical"
+	    android:layout_marginBottom="3dp">
+		
+		<CheckBox
+		    android:layout_margin="0dp"
+		    android:padding="0dp"
+		    style="@style/SettingsText"
+		    android:id="@+id/turns_limit_checkbox" 
+	   	    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"/>
+		
+		<TextView
+		    style="@style/NumberButton"
+		    android:id="@+id/turns_limit_picker"
+	   	    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="0dp"/>
+		
+		<TextView
+		    style="@style/SettingsText"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/settings_play_untill_turns"/>
+	</LinearLayout>
+	
+   	<View style="@style/BlackDivider" />
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="left|center_vertical">
+		
+		<TextView
+		    style="@style/SettingsText"
+	   	    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/settings_time_per_turn"/>
+		
+		<TextView
+		    style="@style/NumberButton"
+		    android:id="@+id/time_per_turn_picker"
+	   	    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"/>
+		
+		<TextView
+		    style="@style/SettingsText"
+	   	    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/settings_time_per_turn_seconds"/>
+	</LinearLayout>
+</LinearLayout>

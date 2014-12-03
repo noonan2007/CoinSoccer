@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+    
+    <ImageView
+        android:layout_weight="0"
+        android:id="@+id/entry_left_color"
+        android:layout_marginRight="5dp"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:src="@drawable/player_coin_drawable"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/color_display"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+    
+    <TextView 
+        android:layout_weight="1"
+        android:id="@+id/entry_left_value"
+   	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:ellipsize="middle"
+	    android:maxLength="12"
+	    android:gravity="left"
+	    android:textSize="15sp"
+	    android:textColor="#FF000000"/>
+    
+    <TextView
+        android:layout_weight="1" 
+        android:id="@+id/entry_right_value"
+   	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:ellipsize="middle"
+	    android:gravity="right"
+   	    android:textSize="15sp"
+	    android:textColor="#FF000000"/>
+    
+    <ImageView
+        android:layout_weight="0"
+        android:id="@+id/entry_right_color"
+        android:layout_marginLeft="5dp"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:src="@drawable/player_coin_drawable"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/color_display"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+</LinearLayout>

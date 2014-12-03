@@ -1,0 +1,89 @@
+
+packedgfx.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+accuracy_test_bg
+  rotate: false
+  xy: 622, 960
+  size: 330, 37
+  orig: 330, 37
+  offset: 0, 0
+  index: -1
+accuracy_test_green_area
+  rotate: false
+  xy: 954, 964
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+accuracy_test_view_finder
+  rotate: false
+  xy: 556, 737
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ball_coin
+  rotate: false
+  xy: 197, 47
+  size: 147, 148
+  orig: 147, 148
+  offset: 0, 0
+  index: -1
+gradient_circle
+  rotate: false
+  xy: 1, 197
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 426, 609
+  size: 128, 192
+  orig: 128, 192
+  offset: 0, 0
+  index: -1
+lines_circle
+  rotate: false
+  xy: 1, 599
+  size: 423, 398
+  orig: 423, 398
+  offset: 0, 0
+  index: -1
+pencil_end_red
+  rotate: false
+  xy: 622, 894
+  size: 108, 64
+  orig: 108, 64
+  offset: 0, 0
+  index: -1
+pencil_start_red
+  rotate: false
+  xy: 622, 828
+  size: 65, 64
+  orig: 65, 64
+  offset: 0, 0
+  index: -1
+pencil_stretchable_red
+  rotate: false
+  xy: 403, 533
+  size: 14, 64
+  orig: 14, 64
+  offset: 0, 0
+  index: -1
+player_coin_middle_layer
+  rotate: false
+  xy: 426, 803
+  size: 194, 194
+  orig: 194, 194
+  offset: 0, 0
+  index: -1
+player_coin_top_layer
+  rotate: false
+  xy: 1, 1
+  size: 194, 194
+  orig: 194, 194
+  offset: 0, 0
+  index: -1

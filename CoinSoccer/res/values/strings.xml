@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CoinSoccer</string>
+    
+    <string name="red_label">Red</string>
+    <string name="green_label">Green</string>
+    <string name="blue_label">Blue</string>
+    <string name="color_display">Color display</string>
+    
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="close">Close</string>
+    
+    <string name="connecting">Connecting…</string>
+    
+    <string name="confirm_exit_title">Exit game</string>
+    <string name="confirm_exit_message">Are you sure to exit game?</string>
+
+    <string name="info_msg_goal">&#160;G o a l ! ! !&#160;</string>
+    <string name="info_msg_foul">Foul!</string>
+    <string name="info_msg_cleaning_goal_area">Only one pawn is allowed to be inside defended goal area. The "goalie" pawn must not be inside the goal unless the ball is inside the defended goal area.</string>
+    <string name="info_msg_turn_expired">Turn expired!</string>
+    <string name="info_msg_loading_assets">Loading assets…</string>
+    <string name="info_msg_paused_locally">Game is paused.</string>
+    <string name="info_msg_paused_remote">Remote player requested pause.</string>
+    <string name="info_msg_paused_locally_and_remote">Game is paused. Remote requested pause too.</string>
+    <string name="info_msg_remote_player_preparing_shot">Remote player is preparing her/his shot.</string>
+    <string name="info_msg_shot_cancel">Raise finger up to cancel shot!</string>
+    <string name="hud_goals_till_end">Goals till end: %1$d</string>
+    <string name="hud_turns_till_end">Turns till end: %1$d</string>
+    
+	<string name="main_title">Coin Soccer</string>
+	<string name="main_title_the">The</string>
+    <string name="main_menu_new_game">New game</string>
+    <string name="main_menu_join_game">Join game</string>
+    <string name="main_menu_help">Help</string>
+    <string name="main_menu_about">About</string>
+    
+    <string name="game_menu_header">Menu</string>
+    <string name="game_menu_pause">Pause game</string>
+    <string name="game_menu_resume">Resume game</string>
+    <string name="game_menu_title">Game menu</string>
+    <string name="game_menu_quit">Quit Game</string>
+    <string name="game_menu_volume">Volume settings</string>
+    <string name="game_menu_statistics">Show statistics</string>
+    
+    <string name="stats_title_end_of_game">End of The Game</string>
+    <string name="stats_title_in_game">Game Statistics</string>
+    <string name="stats_summary_total_fouls">Total Fouls</string>
+    <string name="stats_summary_offensive_fouls">Offensive Fouls</string>
+    <string name="stats_summary_illegal_position_fouls">Illegal Position Fouls</string>
+    <string name="stats_summary_avg_turns_per_goal">Avg. Turns/Goal</string>
+    <string name="stats_summary_min_turns_per_goal">Min. Turns/Goal</string>
+    <string name="stats_summary_max_turns_per_goal">Max. Turns/Goal</string>
+    <string name="stats_summary_expired_shots">Expired shots</string>
+    <string name="stats_summary_own_goals">Own goals</string>
+    <string name="stats_score_separator">:</string>
+    
+    <string name="join_game_title">Join Remote Game</string>
+    <string name="player_type">Type:&#160;</string>
+    <string name="local_player">Local</string>
+    <string name="remote_player">Remote</string>
+    <string name="join_game_waiting_for_hosts">Waiting for available game hosts…</string>
+    <string name="join_game_disconnected_title">Disconnected</string>
+    <string name="join_game_disconnected_message">Connection lost</string>
+    <string name="join_game_available_game_hosts">Available game hosts: %1$d</string>
+    <string name="join_game_waiting_for_acceptance_title">Waiting for acceptance</string>
+	<string name="join_game_waiting_for_acceptance_message">Request to join remote game has been sent - waiting for acceptance.</string>
+	<string name="join_game_remote_host_disconnected_title">Remote host disconnected</string>
+	<string name="join_game_remote_host_disconnected_message">Remote host game disconnected. Please select another game.</string>
+	<string name="join_game_request_rejected_title">Request rejected!</string>
+	<string name="join_game_request_rejected_message">Remote game has not accepted You as the second player! Please select another game from list.</string>
+	<string name="join_game_request_rejected_already_in_game_message">Remote game has already accepted another player! Please select another game from list.</string>
+	<string name="join_game_request_rejected_processing_other_message">Remote game is handling request from another device! Please select another game from list.</string>
+	<string name="remote_game_settings_summary"><![CDATA[ 
+	    Remote player: <b>%1$s</b>, <br /> 
+	    Time per turn: <b>%2$d</b> seconds,<br /> 
+	    Play until: <b>%3$s</b>.
+	]]></string>
+	<string name="no_limit">No limit</string>
+	<string name="turn_limit">%1$d turns</string>
+	<string name="goal_limit">%1$d goals</string>
+	<string name="join_game_button">Join game</string>
+	
+    <string name="new_game_title">Start New Game</string>
+    <string name="settings_play_untill">Play until:</string>
+    <string name="settings_play_untill_goals">goals</string>
+    <string name="settings_play_untill_turns">turns</string>
+    <string name="settings_time_per_turn">Time per turn:</string>
+    <string name="settings_time_per_turn_seconds">Seconds</string>
+    <string name="settings_game_head">Game Settings:</string>
+    <string name="settings_first_player_head">First Player:</string>
+    <string name="settings_second_player_head">Second Player:</string>
+    <string name="start_game_button">Start game</string>
+    <string name="remote_players_join_requests">Remote player requests to join</string>
+    <string name="waiting_for_remote_node_left">Remote player has lost connection. Wait for another one, please.</string>
+    <string name="waiting_for_remote_ready">Waiting for remote players to join…</string>
+    <string name="waiting_for_remote_disconnected">Disconnected. Please check your network settings and try again.</string>
+    <string name="waiting_for_remote_after_reject">Remote player rejected. Wait for another one, please.</string>
+    <string name="connection_failure">Connection failure.</string>
+    <string name="connection_failure_with_error_message">Connection failure. (Error message: %1$s).</string>
+
+    <string name="player_name_label">Player name:</string>
+    <string name="edit_color_button">Edit color</string>
+
+    <string name="help_tab_local_remote">Starting Game</string>
+    <string name="help_tab_game_rules">Game Rules</string>
+    <string name="help_tab_how_to_shoot">How to Shoot</string>
+    
+    <string name="help_title">Help</string>
+    <string name="help_how_to_shoot"><![CDATA[ 
+		<b>Applying a shot</b>
+        <br /><br />
+        The game takes place in rounds. The pawns of currently active player get highlighted. 
+        In order to select a highlighted pawn simply touch it with finger and fo not raise up. 
+        Then drag the finger in the appriopriate direction to define force and direction of the shot. 
+        After the force and direction are prepared raise up the finger.
+        <br /><br /><br />
+        
+    	<b>Cancelling a shot</b> 
+    	<br /><br />
+        In order to cancel a shot, after a pawn has been selected move finger to the center of
+        the pawn (as if defining minimal force of shot). This should show a toast message with a trash bin. 
+		Raising up the finger up while this toast message is on the screen releases pawn selection.
+		After that you can select another pawn from the active team.
+        
+    ]]></string>
+    <string name="help_game_rules"><![CDATA[ 
+        <b>General information</b>
+        <br /><br />
+		Two users play a soccer-like match with coins placed on a table board. 
+		The game takes place in rounds. Each user controls a team of 6 coin pawns which represent 
+		football players. There is on additional coin which represents a ball. The coins are placed 
+		on a table which represents a soccer pitch (limited with borders made of pencils, as well 
+		as with goal symbols). The user applies a shot (force vector) to one of the coins in his team. 
+		The aim of each team is (as in a \“normal\” soccer game) to shoot more goals than the opposite 
+		team.
+		<br /><br />
+		This game in \“its physical version\” (played with real coins or bottle nuts on a real table) 
+		is quite popular in Central Europe under different names and with slightly modified rules 
+		(especially as to fouls and team size) and probably most popular in the Czech Republic, where 
+		it is known as the \“table-hockey\”.
+		<br /><br /><br />
+        
+        <b>Illegal situations</b>
+        <br /><br />
+        - User must not hit a pawn from the opposite team before hitting the ball pawn. 
+        This situation is treated as offensive foul and causes reverting state of all pawns to the 
+        state as it was before the shot. 
+        <br /><br />
+        - User must not have more than one pawn in his own goal area. The \"goalie\" pawn must not be 
+        inside the goal unless ball is in the goal area. If one of these situation happens the pawns
+        in illegal positions are moved to the closest legal positions. Checking for illegal position 
+        of pawns is performed after the shot is finished and it applies only to active player\'s pawns.   
+        <br /><br />
+    ]]></string>
+    <string name="help_local_remote"><![CDATA[ 
+        <b>Starting A New Game</b>
+        <br /><br />
+        The game is played by two players. Each player can control his pawns using his
+        own device (this is called a <i>remote game</i>) or both players can use the 
+        same device for contralling their players (this is called <i>local game</i>).
+        <br /><br /><br />
+        
+        <b>Local Game</b>
+        <br /><br />
+        In order to start a local game:<br />
+        1) Click <i>New Game</i> button from the main menu screen. You will be redirected to the <i>"Start New Game"</i> screen.<br />
+        2) In the <i>Start New Game</i> screen check in <i>Local</i> checkbox in the second player\'s settings.<br />
+        3) Click <i>Start Game</i> button.
+        <br /><br /><br />
+        
+        <b>Remote Game</b>
+        <br /><br />
+        Remote game is set up on two devices in a different way.
+        One device called a <i>host</i> defines settings of the game as well as settings of the first player.
+        After that it waits untill another device joins the game with settings of the second player defined.
+        This second device is called a <i>guest</i>.
+        <br /><br />
+        
+        In order to start a remote game as a <i>host</i>:<br />
+        1) Click <i>New Game</i> button from the main menu screen. You will be redirected to the <i>"Start New Game"</i> screen.<br />
+        2) In the <i>Start New Game</i> screen check in <i>Remote</i> checkbox in the second player\'s settings.<br />
+        3) Wait untill a <i>guest</i> device requests accepting its player as the second player.<br />
+        4) Accept a request mentioned in point 3) or reject if you want to wait for anotjer player.
+        <br /><br />
+        
+        In order to join a remote game as a <i>guest</i>:<br />
+        1) Click <i>Join Game</i> button from the main menu screen. You will be redirected to the <i>Join Remote Game</i> screen.<br />
+        2) In the <i>Join Remote Game</i> wait untill the available <i>host</i> device appear in a list.<br />
+        3) Select the remote game host, you want to join, from the list.<br />
+        4) If the remote accepts your player the game starts.<br />
+        <br /><br />
+
+    ]]></string>
+    
+    <string name="about_title">About</string>
+    <string name="about_text"><![CDATA[
+        
+        <b>CoinSoccer Game</b><br />
+		Copyright © 2013 Samsung Electronics, Inc.<br /><br />
+		
+		This product uses the following libraries under the specified licenses:<br /><br />
+		
+		<b>LIBGDX library</b> licensed under Apache License 2.0 
+		<a href="http://www.apache.org/licenses/LICENSE-2.0">www.apache.org/licenses/LICENSE-2.0</a>
+		<br /><br />
+		
+		<b>Music tracks</b> licensed under Creative commons 0 License 
+		<a href="http://creativecommons.org/publicdomain/zero/1.0/">creativecommons.org/publicdomain/zero/1.0/</a>
+		<br />
+		- Footbal crowd cheers loop sound by <i>huubjeroen</i> 
+		<a href="http://www.freesound.org/people/huubjeroen/">www.freesound.org/people/huubjeroen/</a>
+		<br />
+		- Click sound by <i>satrebor</i> 
+		<a href="http://www.freesound.org/people/satrebor/">www.freesound.org/people/satrebor/</a>
+		<br /><br />
+		
+		<b>Music tracks</b> licensed under Creative Commons Attribution License 3.0
+		<a href="http://creativecommons.org/licenses/by/3.0/">creativecommons.org/licenses/by/3.0/</a>
+		<br />
+		- Goal cheers sound, by <i>paulw2k</i> 
+		<a href="http://www.freesound.org/people/paulw2k/">www.freesound.org/people/paulw2k/</a>
+		<br />
+		- Coin collision sound, by <i>mkoenig</i> 
+		<a href="http://www.freesound.org/people/mkoenig/">www.freesound.org/people/mkoenig/</a>
+		<br />
+		- Whistle sound by <i>Pablo-F</i> 
+		<a href="http://www.freesound.org/people/Pablo-F/">www.freesound.org/people/Pablo-F/</a>
+		<br />
+		- Shot cancellation sound by <i>Greencouch</i> <a href="http://www.freesound.org/people/Greencouch/">www.freesound.org/people/Greencouch/</a>
+		<br /><br />
+		
+		<b>Enjoy!</a>
+		<br />
+	]]></string>
+
+</resources>

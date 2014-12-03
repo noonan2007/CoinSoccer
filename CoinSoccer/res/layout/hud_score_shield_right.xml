@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+   	<TextView
+		android:layout_marginRight="5dp"
+		android:layout_alignParentLeft="true"
+		android:id="@+id/player_score"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		style="@style/ScoreShieldScore"/>
+	
+	<TextView
+		android:layout_toRightOf="@+id/player_score"
+		android:layout_alignBottom="@+id/player_score"
+		android:id="@+id/player_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		style="@style/ScoreShieldName"/>
+	
+	<View
+	    android:layout_marginTop="3dp"
+	    android:layout_below="@+id/player_score"
+	    android:layout_alignLeft="@+id/player_score"
+	    android:layout_alignRight="@+id/player_score"
+		android:id="@+id/active_player_marker"
+		android:layout_width="wrap_content"
+		android:layout_height="5dp"/>
+</merge>
+

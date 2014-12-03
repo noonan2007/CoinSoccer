@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="black_button_bg_default">#CC000000</color>
+	<color name="black_button_bg_disabled">#77000000</color>
+	<color name="black_button_text_disabled">#55FFFFFF</color>
+	<color name="black_button_text_default">#FFFFFFFF</color>
+	<color name="edit_text_text_disabled">#77000000</color>
+	<color name="edit_text_text_default">#FF000000</color>
+	<color name="black_divider">#77000000</color>
+	<color name="black_text">#FF000000</color>
+	<color name="list_divider">#33000000</color>
+</resources>

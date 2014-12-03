@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <LinearLayout 
+        android:id="@+id/waiting_face"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_margin="15dp">
+        
+        <ProgressBar android:id="@android:id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp" />
+
+        <TextView android:id="@+id/status_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/join_request_face"
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:visibility="gone">
+        
+        <TextView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:textAppearance="?android:attr/textAppearanceMedium"
+	    	android:layout_marginBottom="15dp"
+   	        android:layout_marginLeft="15dp"
+        	android:layout_marginRight="15dp"
+	    	android:text="@string/remote_players_join_requests"/>
+    
+	    <com.samsung.android.sample.coinsoccer.settings.PlayerSettingsView
+	        android:id="@+id/player_settings_view" 
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"
+   	        android:layout_marginLeft="15dp"
+        	android:layout_marginRight="15dp"
+	    	android:layout_marginBottom="15dp"/>
+	    
+		<View
+		    android:layout_width="match_parent"
+		    android:layout_weight="0"
+		    android:layout_height="1dp"
+		    android:layout_marginBottom="0dp"
+		    android:background="?android:attr/dividerVertical" /> 
+	    
+        <LinearLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	style="?android:attr/buttonBarStyle">
+	    	
+		    <Button 
+		        android:id="@+id/accept_button"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		    	android:layout_height="wrap_content"
+		    	style="?android:attr/buttonBarButtonStyle"
+		    	android:text="@string/accept"/>
+		    
+		    <Button 
+		        android:id="@+id/reject_button"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		    	android:layout_height="wrap_content"
+		    	style="?android:attr/buttonBarButtonStyle"
+		    	android:text="@string/reject"/>
+		</LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/error_face"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_margin="15dp"
+        android:visibility="gone">
+
+        <TextView android:id="@+id/error_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+        
+		<View
+		    android:layout_width="match_parent"
+		    android:layout_height="1dp"
+		    android:layout_marginBottom="0dp"
+		    android:background="?android:attr/dividerVertical" /> 
+		    
+        <FrameLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	style="?android:attr/buttonBarStyle">
+	    	
+		    <Button 
+		        android:id="@+id/close_button"
+		        android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	style="?android:attr/buttonBarButtonStyle"
+		    	android:text="@string/close"/>
+		</FrameLayout>
+    </LinearLayout>
+</LinearLayout>

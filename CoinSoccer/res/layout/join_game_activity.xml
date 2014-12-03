@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wood_bg_drawable"
+    android:padding="20dp">
+    
+    <TextView 
+        android:layout_weight="0"
+        android:text="@string/join_game_title"
+  	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	style="@style/BigTitle"
+    	android:layout_marginBottom="5dp"/>
+    
+    <View style="@style/BlackDivider"
+        android:layout_weight="0"
+        android:layout_marginBottom="20dp" />
+    
+    <com.samsung.android.sample.coinsoccer.settings.PlayerSettingsView
+        android:layout_weight="0" 
+        android:id="@+id/player_settings_view"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	style="@style/SubBox"/>
+    
+    <TextView
+        android:layout_weight="0"
+        android:id="@+id/status_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#77000000"
+    	style="@style/SubBox" />
+    
+	<ListView
+	    android:layout_weight="1"
+        android:id="@+id/remote_games_list"
+        android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:listSelector="@android:color/transparent"/>
+</LinearLayout>
